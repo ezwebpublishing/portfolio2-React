@@ -14,9 +14,6 @@ const Notice = () => {
     <section id="notice">
       <div className="container notice-wrapper">
         <h2>notice</h2>
-        <button onClick={toggleDirection}>
-          Toggle Direction
-        </button>
         <Swiper
           direction={swiperDirection}
           modules={[Navigation]}
@@ -31,7 +28,7 @@ const Notice = () => {
               <hr />
               <p className="point txt-sm-b">수료</p>
               <h3>기업연계 프로젝트형 웹디지안(웹퍼블리셔)&프론트엔드 SW개발자 양성</h3>
-              <img src="src/image/notice_item01.jpeg" alt="SW개발자 수료증" />
+              <img src="/image/notice_item01.jpeg" alt="SW개발자 수료증" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -40,7 +37,7 @@ const Notice = () => {
               <hr />
               <p className="point txt-sm-b">수료</p>
               <h3>[웹코딩]웹퍼블리셔 프론트엔드(웹표준,HTML5,CSS3, 반응형 웹디자인)</h3>
-              <img src="src/image/notice_item02.jpg" alt="웹퍼블리셔 수료증" />
+              <img src="/image/notice_item02.jpg" alt="웹퍼블리셔 수료증" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
