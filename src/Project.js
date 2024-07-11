@@ -1,14 +1,17 @@
-import React, { useEffect } from 'react';
-import $ from 'jquery'; // jQuery를 임포트합니다.
+import React, { useEffect, useRef } from 'react';
 import './App.css';
 
 function Project() {
-  useEffect(() => {
-    const $slider = $('.slider');
-    const $prevButton = $('.prev');
-    const $nextButton = $('.next');
+  const sliderRef = useRef(null);
+  const prevButtonRef = useRef(null);
+  const nextButtonRef = useRef(null);
 
-    if (!$slider.length || !$prevButton.length || !$nextButton.length) {
+  useEffect(() => {
+    const slider = sliderRef.current;
+    const prevButton = prevButtonRef.current;
+    const nextButton = nextButtonRef.current;
+
+    if (!slider || !prevButton || !nextButton) {
       console.error('Slider or navigation buttons not found');
       return;
     }
@@ -16,27 +19,27 @@ function Project() {
     console.log('Slider and navigation buttons found');
 
     const handleNextClick = () => {
-      const $items = $slider.find('.item');
-      if ($items.length > 0) {
-        $slider.append($items.first());
+      const items = slider.querySelectorAll('.item');
+      if (items.length > 0) {
+        slider.appendChild(items[0]);
         console.log('Next button clicked');
       }
     };
 
     const handlePrevClick = () => {
-      const $items = $slider.find('.item');
-      if ($items.length > 0) {
-        $slider.prepend($items.last());
+      const items = slider.querySelectorAll('.item');
+      if (items.length > 0) {
+        slider.insertBefore(items[items.length - 1], items[0]);
         console.log('Prev button clicked');
       }
     };
 
-    $nextButton.on('click', handleNextClick);
-    $prevButton.on('click', handlePrevClick);
+    nextButton.addEventListener('click', handleNextClick);
+    prevButton.addEventListener('click', handlePrevClick);
 
     return () => {
-      $nextButton.off('click', handleNextClick);
-      $prevButton.off('click', handlePrevClick);
+      nextButton.removeEventListener('click', handleNextClick);
+      prevButton.removeEventListener('click', handlePrevClick);
     };
   }, []);
 
@@ -44,7 +47,7 @@ function Project() {
     <section id="project">
       <h2 className="hidden">project</h2>
       <div>
-        <ul className="slider">
+        <ul className="slider" ref={sliderRef}>
           <li className="item">
             <figure>
               <img src="/image/projeact_item01.png" alt="르세라핌 페이지" />
@@ -122,8 +125,8 @@ function Project() {
           </li>          
         </ul>
         <nav>
-          <ion-icon className="btn prev" name="chevron-back-circle-outline"></ion-icon>
-          <ion-icon className="btn next" name="chevron-forward-circle-outline"></ion-icon>
+          <ion-icon className="btn prev" name="chevron-back-circle-outline" ref={prevButtonRef}></ion-icon>
+          <ion-icon className="btn next" name="chevron-forward-circle-outline" ref={nextButtonRef}></ion-icon>
         </nav>
       </div>
     </section>
