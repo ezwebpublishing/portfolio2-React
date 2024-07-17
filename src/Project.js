@@ -84,10 +84,12 @@ function Project() {
           <li className="item">
             <figure>
               <img src="/image/projeact_item04.png" alt="lms 사용자 페이지"/>
-              <h2 className="tit-h1">ccc coding 사용자 페이지(LMS site)</h2>
-              <p>팀 프로젝트 : 메인 섹션(베너슬라이드, 강의 바로가기, 신규강의, 베스트 강의), 카테고리 관련 전체, 로그인 관련 전체, 팝업</p>
-              <p>php, mysql, bootstrap으로 구현했습니다.</p>
-              <a href="http://ccccoding.dothome.co.kr/ccccoding/" className="button" data-btn="site 바로가기"></a>
+              <figcaption>
+                <h2 className="tit-h1">ccc coding 사용자 페이지(LMS site)</h2>
+                <p>팀 프로젝트 : 메인 섹션(베너슬라이드, 강의 바로가기, 신규강의, 베스트 강의), 카테고리 관련 전체, 로그인 관련 전체, 팝업</p>
+                <p>php, mysql, bootstrap으로 구현했습니다.</p>
+                <a href="http://ccccoding.dothome.co.kr/ccccoding/" className="button" data-btn="site 바로가기"></a>
+              </figcaption>
             </figure>
           </li>
           <li className="item">
