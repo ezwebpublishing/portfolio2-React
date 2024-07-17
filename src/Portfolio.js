@@ -1,7 +1,53 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
 function Portfolio() {
+  useEffect(() => {
+    const charts = document.querySelectorAll('.chart');
+    let executed = false;
+
+    const handleScroll = () => {
+      const sct = window.scrollY;
+      charts.forEach((chart) => {
+        if (sct >= chart.offsetTop - window.innerHeight / 2) {
+          if (!executed) {
+            startAnimation();
+            executed = true;
+          }
+        }
+      });
+    };
+
+    const startAnimation = () => {
+      charts.forEach((chart) => {
+        const h2 = chart.querySelector('h2');
+        const circle = chart.querySelector('circle');
+        const targetNum = parseInt(h2.getAttribute('data-num'), 10);
+        let rate = { rate: 0 };
+
+        const animate = () => {
+          const now = Math.floor(rate.rate);
+          const offset = 360 - (360 * now / 100);
+          h2.textContent = now;
+          circle.style.strokeDashoffset = offset;
+
+          if (rate.rate < targetNum) {
+            rate.rate += targetNum / 100;
+            requestAnimationFrame(animate);
+          }
+        };
+
+        animate();
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <section id="portfolio">
       <div className="container">
@@ -53,7 +99,7 @@ function Portfolio() {
             </svg>
           </div>
           <div className="chart" data-title="Mysql" data-desc="Mysql데이터를 활용한 CRUD 가능합니다.">
-            <h2 data-num="10">0</h2>
+            <h2 data-num="50">0</h2>
             <svg>
               <circle cx="55" cy="55" r="50"></circle>
             </svg>
@@ -67,7 +113,7 @@ function Portfolio() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Portfolio;

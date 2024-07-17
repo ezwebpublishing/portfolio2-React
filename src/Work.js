@@ -112,7 +112,7 @@ function Work() {
                 <p>전국의 박물관 정보를 제공하고 예약, 예매까지 연동할 수 있는 앱 사이트를 기획 및 디자인 하였습니다.</p>
                 <p>제작 기한 : 약 6주</p>
                 <p>피그마, 포토샵, 일러스트</p>
-                <a href="https://www.figma.com/proto/gIeAZXRXDeyb1GKToWaWZk/'%EC%98%A4'%ED%82%A4%EC%B9%9C?page-id=0%3A1&node-id=1-290&viewport=442%2C373%2C0.06&t=B2LgsDQS2Hipz8KF-1&scaling=contain&content-scaling=fixed" className="tit-h4 shortcut" target="_blank">바로가기 &#187;</a>
+                <a href="https://www.figma.com/proto/6p6qejjFNBqRfho40zFvmk/%ED%98%9C%EB%A6%AC%ED%8B%B0-%EB%AE%A4%EC%A7%80%EC%97%84%EA%B3%A0(%EB%B0%95%EB%AC%BC%EA%B4%80-APP)?page-id=34%3A504&node-id=325-5296&viewport=621%2C496%2C0.03&t=yLg4LdNkoRUYqVb4-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=222%3A5457&show-proto-sidebar=1"></a>
               </div>
             </li>
           </ul>
