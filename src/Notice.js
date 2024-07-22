@@ -28,7 +28,7 @@ const Notice = () => {
               <hr />
               <p className="point txt-sm-b">수료</p>
               <h3>기업연계 프로젝트형 웹디지안(웹퍼블리셔)&프론트엔드 SW개발자 양성</h3>
-              <img src="/image/notice_item01.jpeg" alt="SW개발자 수료증" />
+              <img src="./image/notice_item01.jpeg" alt="SW개발자 수료증" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -37,7 +37,7 @@ const Notice = () => {
               <hr />
               <p className="point txt-sm-b">수료</p>
               <h3>[웹코딩]웹퍼블리셔 프론트엔드(웹표준,HTML5,CSS3, 반응형 웹디자인)</h3>
-              <img src="/image/notice_item02.jpg" alt="웹퍼블리셔 수료증" />
+              <img src="./image/notice_item02.jpg" alt="웹퍼블리셔 수료증" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -46,7 +46,7 @@ const Notice = () => {
               <hr />
               <p className="point txt-sm-b">수료</p>
               <h3>피그마(Figma) UI/UX 웹&앱 디자이너를 위한 실무활용</h3>
-              <img src="/image/notice_item03.jpg" alt="" />
+              <img src="./image/notice_item03.jpg" alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -55,7 +55,7 @@ const Notice = () => {
               <hr />
               <p className="point txt-sm-b">수상</p>
               <h3>고용노동부 주최 K-JOB STAR 참가 및 수상</h3>
-              <img src="/image/notice_item04.png" alt="" />
+              <img src="./image/notice_item04.png" alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -64,7 +64,7 @@ const Notice = () => {
               <hr />
               <p className="point txt-sm-b">수상</p>
               <h3>제 4회 KDT 우수자 포상(협력상)</h3>
-              <img src="/image/notice_item04.png" alt="" />
+              <img src="./image/notice_item04.png" alt="" />
             </a>
           </SwiperSlide>
         </Swiper>

@@ -50,7 +50,7 @@ function Project() {
         <ul className="slider" ref={sliderRef}>
           <li className="item">
             <figure>
-              <img src="/image/projeact_item01.png" alt="르세라핌 페이지" />
+              <img src="./image/projeact_item01.png" alt="르세라핌 페이지" />
               <figcaption>
                 <h2 className="tit-h1">르세라핌 리뉴얼 페이지</h2>
                 <p>개인 프로젝트(기획 ~ 구현)</p>
@@ -61,7 +61,7 @@ function Project() {
           </li>
           <li className="item">
             <figure>
-              <img src="/image/projeact_item02.png" alt="삼성sdi페이지"/>
+              <img src="./image/projeact_item02.png" alt="삼성sdi페이지"/>
               <figcaption>
                 <h2 className="tit-h1">삼성SDI 리뉴얼 페이지</h2>
                 <p>팀 프로젝트 : 메인 섹션(전체), 서브 페이지(비지니스), 팝업</p>
@@ -72,7 +72,7 @@ function Project() {
           </li>
           <li className="item">
             <figure>
-              <img src="/image/projeact_item03.png" alt="lms 대쉬보드 페이지"/>
+              <img src="./image/projeact_item03.png" alt="lms 대쉬보드 페이지"/>
               <figcaption>
                 <h2 className="tit-h1">ccc coding 관리자 페이지(LMS site)</h2>
                 <p>팀 프로젝트 : 대쉬보드 메인(전체), 강의 관련 전체, 로그인 관련 전체, 팝업</p>
@@ -83,7 +83,7 @@ function Project() {
           </li>
           <li className="item">
             <figure>
-              <img src="/image/projeact_item04.png" alt="lms 사용자 페이지"/>
+              <img src="./image/projeact_item04.png" alt="lms 사용자 페이지"/>
               <figcaption>
                 <h2 className="tit-h1">ccc coding 사용자 페이지(LMS site)</h2>
                 <p>팀 프로젝트 : 메인 섹션(베너슬라이드, 강의 바로가기, 신규강의, 베스트 강의), 카테고리 관련 전체, 로그인 관련 전체, 팝업</p>
@@ -94,7 +94,7 @@ function Project() {
           </li>
           <li className="item">
             <figure>
-              <img src="/image/projeact_item05.png" alt="시장하시죠 페이지"/>
+              <img src="./image/projeact_item05.png" alt="시장하시죠 페이지"/>
               <figcaption>
                 <h2 className="tit-h1">시장하시죠 제작 페이지</h2>
                 <p>개인 프로젝트(기획 ~ 구현)</p>
@@ -106,7 +106,7 @@ function Project() {
           </li>
           <li className="item">
             <figure>
-              <img src="/image/projeact_item06.png" alt="판다월드 페이지"/>
+              <img src="./image/projeact_item06.png" alt="판다월드 페이지"/>
               <figcaption>
                 <h2 className="tit-h1">판다월드 제작 페이지</h2>
                 <p>개인 프로젝트(기획 ~ 구현)</p>
@@ -117,7 +117,7 @@ function Project() {
           </li>
           <li className="item">
             <figure>
-              <img src="/image/projeact_item07.png" alt="오키친 페이지"/>
+              <img src="./image/projeact_item07.png" alt="오키친 페이지"/>
               <figcaption>
                 <h2 className="tit-h1">오키친 리뉴얼 페이지</h2>
                 <p>개인 프로젝트(기획 ~ 구현)</p>

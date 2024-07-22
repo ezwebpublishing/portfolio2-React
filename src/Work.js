@@ -12,7 +12,7 @@ function Work() {
         <div className="work-itme">
           <ul className="grid">
             <li className="">
-              <div className="work-img"><a href="#"><img src="/image/work_item01.png" alt="르세라핌 페이지 리뉴얼"/></a></div>
+              <div className="work-img"><a href="#"><img src="./image/work_item01.png" alt="르세라핌 페이지 리뉴얼"/></a></div>
               <div className="work-txt">
                 <h3 className="tit-h2"><span className="tit-h4 medium-blue">기획 및 디자인</span><br/>르세라핌 페이지 리뉴얼</h3>
               </div>
@@ -25,7 +25,7 @@ function Work() {
               </div>
             </li>
             <li className="">
-              <div className="work-img"><a href="#"><img src="/image/work_item02.png" alt="LMS 관리자 대쉬보드 제작"/></a></div>
+              <div className="work-img"><a href="#"><img src="./image/work_item02.png" alt="LMS 관리자 대쉬보드 제작"/></a></div>
               <div className="work-txt">
                 <h3 className="tit-h2"><span className="tit-h4 medium-blue">기획 및 디자인</span><br/>LMS 관리자 사이트 제작</h3>
               </div>
@@ -38,7 +38,7 @@ function Work() {
               </div>
             </li>
             <li className=""> 
-              <div className="work-img"><a href="#"><img src="/image/work_item03.png" alt=""/></a></div>
+              <div className="work-img"><a href="#"><img src="./image/work_item03.png" alt=""/></a></div>
               <div className="work-txt">
                 <h3 className="tit-h2"><span className="tit-h4 medium-blue">기획 및 디자인</span><br/>LMS 사용자 사이트 제작</h3>
               </div>
@@ -51,7 +51,7 @@ function Work() {
               </div>
             </li>
             <li className="">
-              <div className="work-img"><a href="#"><img src="/image/work_item04.png" alt=""/></a></div>
+              <div className="work-img"><a href="#"><img src="./image/work_item04.png" alt=""/></a></div>
               <div className="work-txt">
                 <h3 className="tit-h2"><span className="tit-h4 medium-blue">기획 및 디자인</span><br/>시장하시죠(전통시장) 관광 사이트 제작</h3>
               </div>
@@ -64,7 +64,7 @@ function Work() {
               </div>
             </li>
             <li className="">
-              <div className="work-img"><a href="#"><img src="/image/work_item05.png" alt=""/></a></div>
+              <div className="work-img"><a href="#"><img src="./image/work_item05.png" alt=""/></a></div>
               <div className="work-txt">
                 <h3 className="tit-h2"><span className="tit-h4 medium-blue">기획 및 디자인</span><br/>삼성 SDI 페이지 리뉴얼</h3>
               </div>
@@ -77,7 +77,7 @@ function Work() {
               </div>
             </li>
             <li className="">
-              <div className="work-img"><a href="#"><img src="/image/work_item06.png" alt=""/></a></div>
+              <div className="work-img"><a href="#"><img src="./image/work_item06.png" alt=""/></a></div>
               <div className="work-txt">
                 <h3 className="tit-h2"><span className="tit-h4 medium-blue">기획 및 디자인</span><br/>푸바오 이벤트 페이지 제작</h3>
               </div>
@@ -90,7 +90,7 @@ function Work() {
               </div>
             </li>
             <li className="">
-              <div className="work-img"><a href="#"><img src="/image/work_item07.png" alt=""/></a></div>
+              <div className="work-img"><a href="#"><img src="./image/work_item07.png" alt=""/></a></div>
               <div className="work-txt">
                 <h3 className="tit-h2"><span className="tit-h4 medium-blue">기획 및 디자인</span><br/>오키친 페이지 리뉴얼</h3>
               </div>
@@ -103,7 +103,7 @@ function Work() {
               </div>
             </li>
             <li className="">
-              <div className="work-img"><a href="#"><img src="/image/work_item08.png" alt=""/></a></div>
+              <div className="work-img"><a href="#"><img src="./image/work_item08.png" alt=""/></a></div>
               <div className="work-txt">
                 <h3 className="tit-h2"><span className="tit-h4 medium-blue">기획 및 디자인</span><br/>박물관 안내 앱 개발</h3>
               </div>
