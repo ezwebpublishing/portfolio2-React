@@ -55,8 +55,8 @@ function Portfolio() {
         <aside className="profile-img">
           <div>
             <ul className="d-flex jcc aic">
-              <li><a href="https://www.notion.so/b6b536f4720e4cefb4d171defd739e00" target="_blank" rel="noreferrer"><img src="./image/notion_icon.png" alt="노션" /></a></li>
-              <li><a href="https://github.com/dubumom/portfolio2" target="_blank" rel="noreferrer"><img src="./image/git_icon.png" alt="깃허브" /></a></li>
+              <li><a href="https://www.notion.so/b6b536f4720e4cefb4d171defd739e00" target="_blank" rel="noreferrer" aria-label="노션"><img src="./image/notion_icon.png" alt="노션" /></a></li>
+              <li><a href="https://github.com/dubumom/portfolio2" target="_blank" rel="noreferrer" aria-label="깃허브"><img src="./image/git_icon.png" alt="깃허브" /></a></li>
               <li><a href="#"><img src="./image/slack_icon.png" alt="슬랙" /></a></li>
             </ul> 
           </div>
