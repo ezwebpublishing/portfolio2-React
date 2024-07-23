@@ -65,7 +65,7 @@ function Portfolio() {
           <h2 className="tit-h1">안녕하세요<br/><em className="bnr-tit">웹 프론트엔드 개발자 <br /> <strong className="medium-blue">우예지</strong>입니다.</em></h2>
           <p>"최신 기술을 빠르게 습득하고 창의적인 해결책을 통해 사용자 경험을 극대화 하는 <br /> 프론트엔드 개발자가 되겠습니다."</p>
         </div>
-        <a href="#" className="button" data-btn="이력서 바로가기"></a>
+        <a href="./image/resume.png" className="button" data-btn="이력서 바로가기" target="_blank" rel="noreferrer" aria-label="이력서"></a>
         <div className="charts">
           <div className="chart" data-title="HTML5" data-desc="웹표준, 웹접근성을 준수하여 작업하며
           새로운 태그를 바로적용할 수 있습니다.">
