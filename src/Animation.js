@@ -13,7 +13,7 @@ function Animation() {
           ))}
         </div>  
         <p className="instruction">
-          <img alt="" className="./image" src="./image/mouse-black.png" width="74" height="69" />
+          <img alt="" className="image" src="./image/mouse-black.png" width="74" height="69" />
           <span className="text">Scroll to play</span>
         </p>
       </section>
