@@ -7,7 +7,7 @@ function Animation() {
   return (
     <>
       <section className="scene wheel-animation" id="scene-1">
-        <div className="./image-sequence">
+        <div className="image-sequence">
           {Array.from({ length: 192 }, (_, index) => (
             <img src={`./image/sequence/sky${String(index + 1).padStart(3, '0')}.jpg`} alt="" key={index} />
           ))}
