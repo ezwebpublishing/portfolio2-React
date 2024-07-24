@@ -4,8 +4,9 @@ import Portfolio from './Portfolio';
 import Project from './Project';
 import Work from './Work';
 import Notice from './Notice';
+import ContactUs from './ContactUs';
 
-function App() {
+function App(): JSX.Element {
   return (
     <main>
       <Animation/>
@@ -13,9 +14,7 @@ function App() {
       <Project/>
       <Work/>
       <Notice/>
-      <aside id="contact">
-        <h2 className="hidden">contact</h2>
-      </aside> 
+      <ContactUs />
     </main>
   )
 }
