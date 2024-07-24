@@ -351,12 +351,13 @@ circle{
 .instruction {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 0%;
   margin-top: -50px;
   width: 100%;
   text-align: center;
   z-index: 1001;
 }
+.instruction img {display: inline-block;}
 .instruction .text {
   margin-top: 1em;
   font-size: 12px;
@@ -478,23 +479,22 @@ figcaption{
 }
 #project nav{
   position: absolute;
-  top: 47%;
-  right: 1%;
-  bottom: 20rem;
+  /* top: 47%; */
+  right: 20%;
+  bottom: 23rem;
   display: flex;
   justify-content: center;
-  gap:15px;
-  .btn{
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    color: var(--light-black);
-    &:hover{
-      color: var(--medium-blue);
-    }
+  gap: 38px;
+}
+#project nav .md.hydrated{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  color: var(--light-black);
+  &:hover{
+    color: var(--medium-blue);
   }
 }
-
 /* work */
 #work {
   /* overflow: hidden; */
