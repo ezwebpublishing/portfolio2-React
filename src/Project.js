@@ -100,7 +100,7 @@ function Project() {
                 <p>개인 프로젝트(기획 ~ 구현)</p>
                 <p>적응형 페이지로 제이쿼리로 구현했습니다.</p>
                 <a href="https://dubumom.github.io/Are-you-Hungry/" className="button mr" data-btn="web site 바로가기"></a>
-                <a href="https://dubumom.github.io/Are-you-Hungry/m_index.html" className="button" data-btn="mobile site 바로가기" target="_blank" rel="noreferrer" aria-label="are you hungry"></a>
+                <a href="https://dubumom.github.io/Are-you-Hungry/m_index.html" className="button" data-btn="mobile 바로가기" target="_blank" rel="noreferrer" aria-label="are you hungry"></a>
               </figcaption>
             </figure>
           </li>
